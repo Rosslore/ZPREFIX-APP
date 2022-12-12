@@ -21,7 +21,7 @@ const { faker } = require("@faker-js/faker");
 const createFakeInventory = () => {
   fakeInventory = [];
 
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 10; i++) {
     const num = i % 2 === 0 ? 1 : 2;
     const inventory = {
       name: faker.helpers.arrayElement(['TV', 'Laptop', 'Phone', 'Tablet', 'Desktop']),

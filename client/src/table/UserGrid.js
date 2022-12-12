@@ -16,7 +16,7 @@ const UserGrid = () => {
     const [userTableData, setUserTableData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8080/user")
+        fetch("http://localhost:8080/users")
             .then((res) => res.json())
             .then((data) => setUserTableData(data))
             },[]);

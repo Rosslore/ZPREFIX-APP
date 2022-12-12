@@ -11,7 +11,7 @@ module.exports = {
       database: 'supra_inventory',
       password: 'postgrespw',
       user: 'postgres',
-      port: '49155',
+      port: '49153',
     },
     migrations: {
       directory: './db/migrations',   
